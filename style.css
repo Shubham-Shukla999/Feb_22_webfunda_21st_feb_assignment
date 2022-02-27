@@ -1,38 +1,72 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
-body{
-    background-color: blueviolet;
+header{
+    height: 70px;
+    background-color: black;
 }
-form{
-    background-color: azure;
+
+.heading{
+    
+    width: 60%;
+    float: left;
+}
+
+nav{
+    color: white;
+    
+    padding-top: 20px;
+    
+}
+
+span{
+      padding: 5px;
+      cursor: pointer;
+    
+}
+
+summary{
+    padding: 1em;
+    background-color: yellow;
+    margin: 1em;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+h1{
+    color: beige;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+img{
     width: 80vw;
-    height: 80vh;
-    margin-left: 10vw;
-    margin-top: 10vh;
+    padding-top: 3vh;
+}
+
+iframe{
+  width: 60vw;
+  height: 60vh;
+  margin-left: 20vw;  
+}
+
+footer{
     text-align: center;
+    background-color: black;
+    color: cornsilk;
+     padding: 20px;
+      margin-top: 10px;
 }
 
-h2{
-    padding: 20px;
-}
-input{
-    margin: 20px;
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px slateblue solid;
-
+h3{
+    padding-top: 10px;
 }
 
-button{
-    width: 100px;
-    height: 30px;
-    margin: 20px;
-    border-radius: 10px;
-    border: 2px slateblue solid;
-    background-color: rgb(9, 230, 9);
-
+.content{
+    text-align: center;
 }
